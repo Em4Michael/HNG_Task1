@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Profile-card">
+            <div class="Upper-Profile-card">
+                <span class="name-holder">
+                    <h1 data-testid="slackUserName">Em4michael</h1>
+                </span>
+                <span class="image-holder">
+                    <img src="images/me.png" alt="Em4michael" data-testid="slackDisplayImage">
+                </span>
+
+            </div>
+            <div class="Lower-Profile-card">
+                <div class="timeWidget">
+                    <span class="day-holder">
+                        <p data-testid="currentDayOfTheWeek"> </p>
+                    </span>
+                    <span class="time-holder">
+                        <p data-testid="currentUTCTime"> </p>
+                    </span>
+                </div>
+
+                <h2 class="track-holder" data-testid="myTrack">Track: Frontend</h2>
+
+                <a href="https://github.com/Em4Michael/HNG_StageOne" target="_blank" data-testid="githubURL">
+
+                    <button>
+                        Github Repository
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
